@@ -1,5 +1,5 @@
 # The name of the theme
-config[:name] = "life-is-sweet"
+config[:name] = "Life is Sweet"
 
 # The website for the theme
 config[:uri] = "http://www/lifeissweetbakeshop.com"
@@ -32,7 +32,7 @@ config[:comments] = ""
 # config[:compress_js] = false
 
 # Enable livereload
-config[:livereload] = false
+config[:livereload] = true
 
 # Compass configuration can also go here.
 # See http://compass-style.org/help/tutorials/configuration-reference/ for some of the options
