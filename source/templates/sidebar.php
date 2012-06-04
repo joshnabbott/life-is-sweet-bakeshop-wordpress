@@ -9,13 +9,15 @@
       ));
     ?>
   </div>
-  <div class="well span12">
-    <p>Everything is made with love at:</p>
-    <address>
-      The Delhi Center<br/>
-      505 E. Central Ave.<br/>
-      Santa Ana, CA 92707
-    </address>
+  <div class="row-fluid">
+    <div class="well span12">
+      <p>Everything is made with love at:</p>
+      <address>
+        The Delhi Center<br/>
+        505 E. Central Ave.<br/>
+        Santa Ana, CA 92707
+      </address>
+    </div>
   </div>
 </section>
 
