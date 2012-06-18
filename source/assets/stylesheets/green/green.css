@@ -1,0 +1,65 @@
+/* turquoise template */
+
+/* Backgrounds */
+html{background:url(html-bg.png) repeat-x top left;}
+
+#menu-categories.background{background: url("menu-category-bg.png") repeat-x scroll left top transparent;}
+
+.mask{background:url(home-slider-mask.png);}
+
+#small-slider h2 a, #menu-slider h3 a{color:#485e4d;}
+
+#small-slider p {color:#413B34;}
+
+.widget-today-special h2.title a, .widget-news-events h3.title a {color:#485e4d;}
+
+#intro{ background:url("menu-category-bg.png") repeat-x scroll left 74px transparent;}
+
+#intro h1{ color:#485e4d; }
+
+#small-slider h2 {color: #485e4d;}
+
+#content{ background:url(../../images/sub-content-bg.jpg) repeat left top;}
+
+.page h2{color:#485e4d;}
+
+ul.bullets li, ul.arrows li, ul.stars li, ul.checklist li{ background-image: url("bullet-arrows.png"); }
+
+ul.bullets, ol.list, ul.arrows, ul.stars, ul.checklist{ color:#485e4d; }
+
+h2.title{color:#485e4d;}
+
+.post h1 {color:#485e4d;}
+.post h2 a, .post h2{color:#485e4d;}
+
+.post .meta .comments{ background: url(icon-cloud.png) no-repeat top left;}
+
+.post .meta .comments a{ color: #485e4d;}
+
+.widget-today-special h2.title a{color:#485e4d;}
+
+.widget-news-events h3.title a{color:#485e4d;}
+
+#comments h2 {color: #485e4d;}
+
+#comments ul.comment-avatar a {color: #485e4d;}
+
+.add-comment h2 {color: #485e4d;}
+
+.profile a {color: #485e4d;}
+
+.widget-recent a{color: #485e4d;}
+
+.widget-archives a{color: #626262;}
+
+.events-calendar{background:url(callendar-events.png) no-repeat left top;}
+
+.error404 h1 {color: #485e4d;}
+
+.error404 h3 {color: #485e4d;}
+
+.price-heading a{color: #485e4d;}
+
+.review p{background:url(icon-testimonial.png) no-repeat left top;}
+
+.portfolio-menu h3.title a{color: #485e4d;}

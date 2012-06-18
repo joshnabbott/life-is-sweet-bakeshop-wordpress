@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav {
+    left: 0;
+    list-style: none outside none;
+    margin-left: 0;
+    overflow: hidden;
+    padding: 15px;
+    position: absolute;
+    top: 145px;
+    z-index: 1000;
+}
+#nav li {
+    display: block;
+}
+#nav li a{
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+#nav li a:hover{
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.black{
+	background: url(../images/black.png) no-repeat center;
+}
+.grey{
+	background: url(../images/grey.png) no-repeat center;
+}
+.coffee{
+	background: url(../images/coffee.png) no-repeat center;
+}
+.deep-blue{
+	background: url(../images/deep-blue.png) no-repeat center;
+}
+.blue{
+	background: url(../images/blue.png) no-repeat center;
+}
+.turquoise{
+	background: url(../images/turquoise.png) no-repeat center;
+}
+.green{
+	background: url(../images/green.png) no-repeat center;
+}
+.lime{
+	background: url(../images/lime.png) no-repeat center;
+}
+.purple{
+	background: url(../images/purple.png) no-repeat center;
+}
+.pink{
+	background: url(../images/pink.png) no-repeat center;
+}
+.yellow{
+	background: url(../images/yellow.png) no-repeat center;
+}
