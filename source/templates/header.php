@@ -22,7 +22,7 @@
     <div class="wrap">
       <h1 class="logo">
         <a href="<?php echo home_url(); ?>">
-          <img src="images/logo.png" width="148" height="101" title="" alt="" />
+          <img src="<?php bloginfo('template_url'); ?>/images/logo.png" width="122" height="101" title="Life is Sweet Bake Shop" alt="Life is Sweet Bake Shop" />
         </a>
       </h1>
 
