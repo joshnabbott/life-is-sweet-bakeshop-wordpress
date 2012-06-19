@@ -1,11 +1,11 @@
 /* turquoise template */
 
 /* Backgrounds */
-html{background:url(html-bg.png) repeat-x top left;}
+html{background:url('images/deep-blue/html-bg.png') repeat-x top left;}
 
-#menu-categories.background{background: url("menu-category-bg.png") repeat-x scroll left top transparent;}
+#menu-categories.background{background: url("images/deep-blue/menu-category-bg.png") repeat-x scroll left top transparent;}
 
-.mask{background:url(home-slider-mask.png);}
+.mask{background:url('images/deep-blue/home-slider-mask.png');}
 
 #small-slider h2 a, #menu-slider h3 a{color:#2c4466;}
 
@@ -13,19 +13,19 @@ html{background:url(html-bg.png) repeat-x top left;}
 
 .widget-today-special h2.title a, .widget-news-events h3.title a {color:#2c4466;}
 
-#intro{ background:url("menu-category-bg.png") repeat-x scroll left 74px transparent;}
+#intro{ background:url("images/deep-blue/menu-category-bg.png") repeat-x scroll left 74px transparent;}
 
 #intro h1{ color:#b2d4ff; }
 
 #small-slider h2 {color: #b2d4ff;}
 
-#content{ background:url(../../images/sub-content-bg.jpg) repeat left top;}
+#content{ background:url('images/sub-content-bg.jpg') repeat left top;}
 
 .breadcrumbs {color: #94897F;}
 
 .page h2{color:#2c4466;}
 
-ul.bullets li, ul.arrows li, ul.stars li, ul.checklist li{ background-image: url("bullet-arrows.png"); }
+ul.bullets li, ul.arrows li, ul.stars li, ul.checklist li{ background-image: url("images/deep-blue/bullet-arrows.png"); }
 
 ul.bullets, ol.list, ul.arrows, ul.stars, ul.checklist{ color:#2c4466; }
 
@@ -34,7 +34,7 @@ h2.title{color:#2c4466;}
 .post h1 {color:#2c4466;}
 .post h2 a, .post h2{color:#2c4466;}
 
-.post .meta .comments{ background: url(icon-cloud.png) no-repeat top left;}
+.post .meta .comments{ background: url('images/deep-blue/icon-cloud.png') no-repeat top left;}
 
 .post .meta .comments a{ color: #2c4466;}
 
@@ -54,7 +54,7 @@ h2.title{color:#2c4466;}
 
 .widget-archives a{color: #2c4466;}
 
-.events-calendar{background:url(callendar-events.png) no-repeat left top;}
+.events-calendar{background:url('images/deep-blue/callendar-events.png') no-repeat left top;}
 
 .error404 h1 {color: #b2d4ff;}
 
@@ -62,6 +62,6 @@ h2.title{color:#2c4466;}
 
 .price-heading a{color: #2c4466;}
 
-.review p{background:url(icon-testimonial.png) no-repeat left top;}
+.review p{background:url('images/deep-blue/icon-testimonial.png') no-repeat left top;}
 
 .portfolio-menu h3.title a{color: #2c4466;}

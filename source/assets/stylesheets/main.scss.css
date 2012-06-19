@@ -108,8 +108,8 @@ html[xmlns] .clearfix {
 /* --------------- Font Embeding */
 @font-face {
 	font-family: 'cherylhand';
-	src: url('css/cheryl_hand-webfont.eot');
-	src: local('☺'), url('css/cheryl_hand-webfont.ttf') format('truetype');
+	src: url('fonts/cheryl_hand-webfont.eot');
+	src: local('☺'), url('fonts/cheryl_hand-webfont.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -1047,7 +1047,7 @@ ul.subfooter-menu li a { color:#92877d; }
 #prev-menu-slider:hover { background-position: 2px -63px; }
 
 /* ----->>> ABOUT <<<---------------------------------------------------------------------------- */ 
-.page { padding-right:25px; }
+.page {}
 .page.full { padding-right:0; }
 .page h3 { color:#5f4d31; }
 .page p {

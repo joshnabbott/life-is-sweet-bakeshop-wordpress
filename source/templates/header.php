@@ -13,20 +13,8 @@
 
   <!-- WordPress -->
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-  <!--[if IE 7]><link rel="stylesheet" type="text/css" href="./css/ie7.css" /><![endif]-->
-  <!--[if IE 8]><link rel="stylesheet" type="text/css" href="./css/ie8.css" /><![endif]-->
-  <!-- Scripts -->
-  <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
-  <script type="text/javascript" src="js/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
-  <script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.1.js"></script>
-  <script type="text/javascript" src="js/jCarouselLite.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.1.1.js"></script>
-  <script type="text/javascript" src="js/jquery-ui-1.8.2.datepicker/jquery-ui-1.8.2.custom.min.js"></script>
-  <script type="text/javascript" src="js/jquery.tools.min.js"></script>
-  <script type="text/javascript" src="js/jquery.uniform/jquery.uniform.min.js"></script>
-  <script type="text/javascript" src="js/jquery.cookie.js"></script>
-  <!-- Main JS -->
-  <script type="text/javascript" src="js/main.js"></script>
+  <!--[if IE 7]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/stylesheets/ie7.css" /><![endif]-->
+  <!--[if IE 8]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/stylesheets/ie8.css" /><![endif]-->
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

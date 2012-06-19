@@ -21,16 +21,16 @@
           <div class="mask"></div>
             <ul>
               <li>
-                <a href="" title=""><img src="assets/slider-image-511x341-1.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/slider-image-511x341-1.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
               </li>
               <li>
-                <a href="" title=""><img src="assets/slider-image-511x341-2.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/slider-image-511x341-2.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
               </li>
               <li>
-                <a href="" title=""><img src="assets/slider-image-511x341-3.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/slider-image-511x341-3.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
               </li>
               <li>
-                <a href="" title=""><img src="assets/slider-image-511x341-4.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/slider-image-511x341-4.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
               </li>
             </ul>
             <div id="prev"></div>
@@ -47,7 +47,7 @@
             <li class="c-3">
               <p class="meta"><a href="#" title="" class="category">Breakfast</a></p>
               <h3 class="title"><a href="">Holiday Casseroles 1</a></h3>
-              <p class="image"><img src="assets/menu-4col-195x114.jpg" width="195" height="114" alt="" title="" /></p>
+              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" width="195" height="114" alt="" title="" /></p>
               <div class="excerpt">
                 <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
               </div>
@@ -56,7 +56,7 @@
             <li class="c-3">
               <p class="meta"><a href="#" title="" class="category">Breakfast</a></p>
               <h3 class="title"><a href="">Holiday Casseroles 1</a></h3>
-              <p class="image"><img src="assets/menu-4col-195x114-1.jpg" width="195" height="114" alt="" title="" /></p>
+              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114-1.jpg" width="195" height="114" alt="" title="" /></p>
               <div class="excerpt">
                 <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
               </div>
@@ -65,7 +65,7 @@
             <li class="c-3">
               <p class="meta"><a href="#" title="" class="category">Breakfast</a></p>
               <h3 class="title"><a href="">Holiday Casseroles 1</a></h3>
-              <p class="image"><img src="assets/menu-4col-195x114-2.jpg" width="195" height="114" alt="" title="" /></p>
+              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114-2.jpg" width="195" height="114" alt="" title="" /></p>
               <div class="excerpt">
                 <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
               </div>
@@ -74,7 +74,7 @@
             <li class="c-3">
               <p class="meta"><a href="#" title="" class="category">Breakfast</a></p>
               <h3 class="title"><a href="">Holiday Casseroles 1</a></h3>
-              <p class="image"><img src="assets/menu-4col-195x114-3.jpg" width="195" height="114" alt="" title="" /></p>
+              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114-3.jpg" width="195" height="114" alt="" title="" /></p>
               <div class="excerpt">
                 <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
               </div>
@@ -92,7 +92,7 @@
         <div class="c-4">
           <div class="widget widget-today-special">
             <h3 class="widget-title">This Week Special</h3>
-            <p class="image"><img src="assets/thumb-specials-142x142.jpg" width="142" height="142" alt="" /></p>
+            <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/thumb-specials-142x142.jpg" width="142" height="142" alt="" /></p>
             <h2 class="title"><a href="" title="">Easy Cheesy Touchdown Bean</a></h2>
             <div class="excerpt">
               <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. </p>

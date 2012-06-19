@@ -1,11 +1,11 @@
 /* turquoise template */
 
 /* Backgrounds */
-html{background:url(html-bg.png) repeat-x top left;}
+html{background:url('images/blue/html-bg.png') repeat-x top left;}
 
-#menu-categories.background{background: url("menu-category-bg.png") repeat-x scroll left top transparent;}
+#menu-categories.background{background: url("images/blue/menu-category-bg.png") repeat-x scroll left top transparent;}
 
-.mask{background:url(home-slider-mask.png);}
+.mask{background:url('images/blue/home-slider-mask.png');}
 
 #small-slider h2 a, #menu-slider h3 a{color:#4A6069;}
 
@@ -13,17 +13,17 @@ html{background:url(html-bg.png) repeat-x top left;}
 
 .widget-today-special h2.title a, .widget-news-events h3.title a {color:#4A6069;}
 
-#intro{ background:url("menu-category-bg.png") repeat-x scroll left 74px transparent;}
+#intro{ background:url("images/blue/menu-category-bg.png") repeat-x scroll left 74px transparent;}
 
 #intro h1{ color:#4A6069; }
 
 #small-slider h2 {color: #4A6069;}
 
-#content{ background:url(../../images/sub-content-bg.jpg) repeat left top;}
+#content{ background:url('images/sub-content-bg.jpg') repeat left top;}
 
 .page h2{color:#4A6069;}
 
-ul.bullets li, ul.arrows li, ul.stars li, ul.checklist li{ background-image: url("bullet-arrows.png"); }
+ul.bullets li, ul.arrows li, ul.stars li, ul.checklist li{ background-image: url("images/blue/bullet-arrows.png"); }
 
 ul.bullets, ol.list, ul.arrows, ul.stars, ul.checklist{ color:#4A6069; }
 
@@ -32,7 +32,7 @@ h2.title{color:#4A6069;}
 .post h1 {color:#4A6069;}
 .post h2 a, .post h2{color:#4A6069;}
 
-.post .meta .comments{ background: url(icon-cloud.png) no-repeat top left;}
+.post .meta .comments{ background: url('images/blue/icon-cloud.png') no-repeat top left;}
 
 .post .meta .comments a{ color: #4A6069;}
 
@@ -52,7 +52,7 @@ h2.title{color:#4A6069;}
 
 .widget-archives a{color: #4A6069;}
 
-.events-calendar{background:url(callendar-events.png) no-repeat left top;}
+.events-calendar{background:url('images/blue/callendar-events.png') no-repeat left top;}
 
 .error404 h1 {color: #4A6069;}
 
@@ -60,6 +60,6 @@ h2.title{color:#4A6069;}
 
 .price-heading a{color: #4A6069;}
 
-.review p{background:url(icon-testimonial.png) no-repeat left top;}
+.review p{background:url('images/blue/icon-testimonial.png') no-repeat left top;}
 
 .portfolio-menu h3.title a{color: #4A6069;}
