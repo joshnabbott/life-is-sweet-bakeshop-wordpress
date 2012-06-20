@@ -38,7 +38,7 @@
         <div class="c-4">
           <div class="widget widget-contact-us">
             <h3 class="widget-title">Contact Us</h3>
-            <form id="contactform" action="php/mail.php" method="post" enctype="multipart/form-data"> 
+            <form id="contactform" action="http://lifeissweetbakeshop.mailmanhq.com" method="post" enctype="multipart/form-data"> 
               <p>
                 <label for="name">Your name:</label>
                 <input class="u-3" name="name" id="name" />
@@ -52,6 +52,7 @@
                 <textarea class="u-3" name="message" id="message" rows="2" cols="1"></textarea>
               </p>
               <p>
+                <input type="hidden" name="token" value="MDEf5oK71wxtPw==" />
                 <input type="submit" name="" class="submit" value="Contact Us" />
               </p>
             </form>
