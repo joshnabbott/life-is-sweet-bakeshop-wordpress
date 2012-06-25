@@ -3,7 +3,7 @@
 <div id="intro">
   <div class="wrap">
     <div class="c-8">
-      <h1>About</h1>
+      <h1>Our Story</h1>
       <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>About Full</strong> </p>
     </div>
             
