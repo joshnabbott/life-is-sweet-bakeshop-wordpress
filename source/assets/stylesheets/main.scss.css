@@ -89,7 +89,7 @@ html { overflow: -moz-scrollbars-vertical; }
 .clearfix { 
 	display: inline-block; 
 }
-html[xmlns] .clearfix {
+html .clearfix {
 	display: block;
 	margin: 0;
 }
