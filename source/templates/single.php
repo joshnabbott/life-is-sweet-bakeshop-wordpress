@@ -1,39 +1,55 @@
 <?php get_header(); ?>
 
-    <section id="content-primary" class="row-fluid">
-      <div class="span2">
-        <?php get_sidebar(); ?>
-      </div>
+<div id="intro">
+  <div class="wrap">
+    <div class="c-8">
+      <h1>Blog Posts</h1>
+      <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>Blog Posts</strong> </p>
+    </div>
 
-      <div class="span10">
+    <div class="c-4">
+      <ul class="social-bookmarking">
+        <li><a class="tw" href=""></a></li>
+        <li><a class="fb" href=""></a></li>
+        <li><a class="in" href=""></a></li>
+        <li><a class="rss" href=""></a></li>
+      </ul>
+    </div>
+  </div><!-- end wrap -->
+</div><!-- end intro -->
+
+<div id="content">
+  <div class="wrap">
+    <div class="c-8 divider">
+      <div class="post-list">
         <?php if ( have_posts() ) : ?>
           <?php while ( have_posts() ) : the_post(); ?>
-            <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-              <h2><?php the_title(); ?></h2>
-              <div><?php printf( __( 'by %s on', 'life_is_sweet' ), get_the_author() ); ?> <?php the_date(); ?></div>
-              <div>
-                <?php if ( has_post_thumbnail() ) { ?>
-                  <div class="thumbnail pull-left">
-                    <?php the_post_thumbnail(); ?>
-                  </div>
-                <?php } ?>
-                <?php the_content(); ?>
-                <?php edit_post_link( __( 'Edit this', 'life_is_sweet' ), '<p>', '</p>' ); ?>
-                <?php wp_link_pages(); ?>
-              </div><!--end entry-->
-              <div class="post-footer clear">
-                <div class="tags">
-                  <?php the_tags( __( 'Tags: ', 'life_is_sweet' ), ', ', '' ); ?>
-                </div>
-                <div class="cats">
-                  <?php printf( __( 'From: %s', 'life_is_sweet' ), get_the_category_list( ', ' ) ); ?>
-                </div>
-              </div><!--end post footer-->
-            </div><!--end post-->
+            <div class="post">
+              <h2 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+              <p class="meta">
+                <span>Date: <a class="date" title="" href="#">15 Feb 2010</a></span>
+                <span>Author: <a class="author" title="" href="#"><?php the_author(); ?></a></span>
+                <!-- <span class="categories">Categories: <a class="category" title="" href="#">Category1</a>, <a class="category" href="#">Category2</a></span> -->
+                <span class="comments"><a title="" href="#"><?php comments_number('0', '1', '%'); ?>&nbsp;&nbsp;&nbsp;</a></span>
+              </p>
+              <?php if ( has_post_thumbnail() ) { ?>
+                <p class="image"><a href=""><?php the_post_thumbnail(); ?></a></p>
+              <?php } ?>
+              <?php the_content(); ?>
+              <p class="meta dashed">
+                <span class="tags">Tags: <a class="tag" title="" href="#">Tag 1</a>, <a class="category" href="#">Tag 2</a></span>
+              </p>
+            </div><!-- end post -->
           <?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
-          <?php comments_template( '', true ); ?>
+          <?php comments_template('', true) ?>
         <?php endif; ?>
         <?php the_post(); ?>
       </div>
-    </section>
+    </div><!-- end post-list -->
+
+    <?php get_sidebar(); ?>
+  </div><!-- end wrap -->
+</div><!-- end content -->
+
+<?php get_footer(); ?>
 

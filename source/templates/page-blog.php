@@ -1,14 +1,47 @@
 <?php get_header(); ?>
 
-    <section id="content-primary" class="row-fluid">
-      <div class="span2">
-        <?php get_sidebar(); ?>
-      </div>
-      <div class="span10">
-        hi
-        <?php get_template_part( 'loop' ); ?>
-      </div>
-    </section>
+<div id="intro">
+  <div class="wrap">
+    <div class="c-8">
+      <h1>Blog Posts</h1>
+      <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>Blog Posts</strong> </p>
+    </div>
+
+    <div class="c-4">
+      <ul class="social-bookmarking">
+        <li><a class="tw" href=""></a></li>
+          <li><a class="fb" href=""></a></li>
+          <li><a class="in" href=""></a></li>
+          <li><a class="rss" href=""></a></li>
+      </ul>
+    </div>
+  </div><!-- end wrap -->
+</div><!-- end intro -->
+
+<div id="content">
+  <div class="wrap">
+    <div class="c-8 divider">
+      <div class="post-list">
+        <?php get_template_part('loop'); ?>
+        <!--
+        <div class="pagination">
+          <ul>
+            <li><a href="#" class="previous">Previous</a></li>
+            <li><a href="#" class="current">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#" class="next">Next</a></li>
+          </ul>
+        </div>
+        -->
+      </div><!-- end post-list -->
+    </div>
+
+    <?php get_sidebar(); ?>
+  </div><!-- end wrap -->
+</div><!-- end content -->
 
 <?php get_footer(); ?>
 
