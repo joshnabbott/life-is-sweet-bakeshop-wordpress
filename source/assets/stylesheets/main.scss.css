@@ -600,7 +600,7 @@ h1 a {
 }
 
 /*---------------- BOOK A TABLE --------------- */
-a.book-a-table {
+a.contact-us {
 	background: url("images/book-a-table.png") no-repeat scroll left top transparent;
 	color: #F7F6E7;
 	float: right;
@@ -610,7 +610,7 @@ a.book-a-table {
 	right: 0;
 	top: -2px;
 }
-a.book-a-table:hover { background-position:0 -64px; }
+a.contact-us:hover { background-position:0 -64px; }
 
 /*---------------- MAIN NAVIGATION --------------- */
 #main-navigation {
