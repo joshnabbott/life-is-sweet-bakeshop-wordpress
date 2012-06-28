@@ -9,10 +9,8 @@
 
     <div class="c-4">
       <ul class="social-bookmarking">
-        <li><a class="tw" href=""></a></li>
-          <li><a class="fb" href=""></a></li>
-          <li><a class="in" href=""></a></li>
-          <li><a class="rss" href=""></a></li>
+        <li><a class="tw" href="http://twitter.com/lifeissweetoc"></a></li>
+        <li><a class="fb" href="http://www.facebook.com/LifeIsSweetBakeshop"></a></li>
       </ul>
     </div>
   </div><!-- end wrap -->

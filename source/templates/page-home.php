@@ -7,10 +7,16 @@
         <div id="small-slider">
           <ul>
             <li>
-              <h4>Whats cooking Chef?</h4>
-              <h2>Oven Sweet Potato Fries</h2>
-              <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Proin tortor sem, vehicula vitae. </p>
-              <a href="" title=""><span>Try It Now</span></a>
+              <h4>Farmer's Market Cupcakes</h4>
+            </li>
+            <li>
+              <h4>Cinnamon Roll Cupcakes</h4>
+            </li>
+            <li>
+              <h4>Donuts</h4>
+            </li>
+            <li>
+              <h4>"Fauxstess" Cupcakes</h4>
             </li>
           </ul>
         </div>
@@ -21,16 +27,16 @@
           <div class="mask"></div>
             <ul>
               <li>
-                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/slider-image-511x341-1.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/home/slideshow-vanilla-cupcakes.jpg" width="511" height="511" alt="Vanilla Cupcakes" title="Farmer's Market Cupcake" /></a>
               </li>
               <li>
-                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/slider-image-511x341-2.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/home/slideshow-cinnamon-roll-cupcakes.jpg" width="511" height="341" alt="Cinnamon Roll Cupcakes" title="Cinnamon Roll Cupcakes" /></a>
               </li>
               <li>
-                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/slider-image-511x341-3.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/home/slideshow-donuts.jpg" width="511" height="341" alt="Donuts" title="Donuts" /></a>
               </li>
               <li>
-                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/slider-image-511x341-4.jpg" width="511" height="341" alt="Slider Image" title="" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/home/slideshow-fauxstess-cupcakes.jpg" width="511" height="341" alt="\"Fauxstess\" Cupcakes" title="\"Fauxstess\" Cupcakes" /></a>
               </li>
             </ul>
             <div id="prev"></div>

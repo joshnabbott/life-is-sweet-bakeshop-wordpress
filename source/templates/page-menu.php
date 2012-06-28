@@ -6,13 +6,11 @@
       <h1>Menu</h1>
       <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>Menu</strong> </p>
     </div>
-    
+
     <div class="c-4">
       <ul class="social-bookmarking">
-        <li><a class="tw" href=""></a></li>
-        <li><a class="fb" href=""></a></li>
-        <li><a class="in" href=""></a></li>
-        <li><a class="rss" href=""></a></li>
+        <li><a class="tw" href="http://twitter.com/lifeissweetoc"></a></li>
+        <li><a class="fb" href="http://www.facebook.com/LifeIsSweetBakeshop"></a></li>
       </ul>
     </div>
   </div><!-- end wrap -->
@@ -23,10 +21,10 @@
     <div class="c-6">
       <h2 class="title">H2 It's okay to make a mess, experiments can lead to beautiful things.</h2>
       <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem vehicula vitae. facilisis vel, accumsan a, sapien. Vivamus convallis rutrum lorem. Praesent massa lectus, vulputate sed, vestibulum eu, vestibulum eu, dolor.</p>
-      <p>Integer ante. Proin ac odio in urna cursus ultricies. Quisque tincidunt lacus in ante. Donec adipiscing. Curabitur at enim at nulla iaculis feugiat. Ut semper, nisi vel suscipit venenatis, felis diam auctor mi, quis iaculis leo nulla vel sapien. 
+      <p>Integer ante. Proin ac odio in urna cursus ultricies. Quisque tincidunt lacus in ante. Donec adipiscing. Curabitur at enim at nulla iaculis feugiat. Ut semper, nisi vel suscipit venenatis, felis diam auctor mi, quis iaculis leo nulla vel sapien.
 Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
     </div>
-        
+
     <div class="c-6">
       <div class="menu-off-the-day">
         <h3 class="title">Menu Of The Day</h3>
@@ -38,12 +36,12 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
         </ul>
       </div>
     </div>
-        
+
     <div id="price-category">
-      <div class="c-6">	
+      <div class="c-6">
         <h3 class="price-category-heading">Breakfast</h3>
         <p class="actions"><a href="">view more</a></p>
-      
+
         <ul class="price-items">
           <li>
             <div class="item-image">
@@ -55,7 +53,7 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-          </li>	
+          </li>
           <li>
             <div class="item-image">
               <p class="image"><img src="assets/price-menu-82x82.jpg" width="82" height="82" alt="" title="" /></p>
@@ -65,14 +63,14 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-          </li>		
+          </li>
         </ul>
-      </div>   
+      </div>
 
-      <div class="c-6">	
+      <div class="c-6">
         <h3 class="price-category-heading"> Lunch</h3>
         <p class="actions"><a href="">view more</a></p>
-        
+
         <ul class="price-items">
           <li>
             <div class="item-image">
@@ -84,7 +82,7 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-          </li>	
+          </li>
           <li>
             <div class="item-image">
               <p class="image"><img src="assets/price-menu-82x82.jpg" width="82" height="82" alt="" title="" /></p>
@@ -94,14 +92,14 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-          </li>		
+          </li>
         </ul>
-      </div>  
+      </div>
 
-      <div class="c-6 clearfix">	
+      <div class="c-6 clearfix">
         <h3 class="price-category-heading"> Dinner</h3>
         <p class="actions"><a href="">view more</a></p>
-        
+
         <ul class="price-items">
           <li>
             <div class="item-image">
@@ -113,7 +111,7 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-          </li>	
+          </li>
           <li>
             <div class="item-image">
               <p class="image"><img src="assets/price-menu-82x82.jpg" width="82" height="82" alt="" title="" /></p>
@@ -123,14 +121,14 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-          </li>		
+          </li>
         </ul>
-      </div>  
+      </div>
 
-      <div class="c-6">	
+      <div class="c-6">
         <h3 class="price-category-heading"> Dessert</h3>
         <p class="actions"><a href="">view more</a></p>
-        
+
         <ul class="price-items">
           <li>
             <div class="item-image">
@@ -142,7 +140,7 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-          </li>	
+          </li>
           <li>
             <div class="item-image">
               <p class="image"><img src="assets/price-menu-82x82.jpg" width="82" height="82" alt="" title="" /></p>
@@ -152,9 +150,9 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-          </li>		
+          </li>
         </ul>
-      </div>   
+      </div>
     </div><!-- end price-category -->
   </div><!-- end wrap -->
 </div><!-- end content -->

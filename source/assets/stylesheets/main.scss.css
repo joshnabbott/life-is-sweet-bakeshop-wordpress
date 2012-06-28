@@ -938,7 +938,8 @@ ul.subfooter-menu li a { color:#92877d; }
 	width: 328px;
 }
 #small-slider h4 {
-	font:30px/35px "cherylhand", Georgia, "Times New Roman", Times, serif;
+	/* font:30px/35px "cherylhand", Georgia, "Times New Roman", Times, serif; */
+	font:60px/65px "cherylhand", Georgia, "Times New Roman", Times, serif;
 	color:#fcfaea;
 }
 #small-slider h2 {

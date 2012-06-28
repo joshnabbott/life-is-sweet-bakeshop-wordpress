@@ -8,6 +8,10 @@
 #= require 'jquery.cookie'
 #= require 'main'
 
-$ ->
-  console.log 'effed'
+loadFlickr = (data) ->
+  console.log data
 
+$ ->
+  if galleryImageHtml = $('#gallery-image-html')
+    $.getJSON 'http://api.flickr.com/services/feeds/photos_public.gne?user_id=80229400@N07&format=json&callback=loadFlickr', (data) ->
+      console.log 'effed'
