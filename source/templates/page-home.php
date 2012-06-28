@@ -49,7 +49,7 @@
     <div id="menu-categories" class="background">
       <div class="wrap">
         <div id="menu-slider">
-          <ul>
+          <!-- <ul>
             <li class="c-3">
               <p class="meta"><a href="#" title="" class="category">Breakfast</a></p>
               <h3 class="title"><a href="">Holiday Casseroles 1</a></h3>
@@ -62,7 +62,7 @@
             <li class="c-3">
               <p class="meta"><a href="#" title="" class="category">Breakfast</a></p>
               <h3 class="title"><a href="">Holiday Casseroles 1</a></h3>
-              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114-1.jpg" width="195" height="114" alt="" title="" /></p>
+              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" width="195" height="114" alt="" title="" /></p>
               <div class="excerpt">
                 <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
               </div>
@@ -71,16 +71,7 @@
             <li class="c-3">
               <p class="meta"><a href="#" title="" class="category">Breakfast</a></p>
               <h3 class="title"><a href="">Holiday Casseroles 1</a></h3>
-              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114-2.jpg" width="195" height="114" alt="" title="" /></p>
-              <div class="excerpt">
-                <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-              </div>
-              <p class="actions"><a class="read-more-red" href="" title="">Read more</a></p>
-            </li>
-            <li class="c-3">
-              <p class="meta"><a href="#" title="" class="category">Breakfast</a></p>
-              <h3 class="title"><a href="">Holiday Casseroles 1</a></h3>
-              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114-3.jpg" width="195" height="114" alt="" title="" /></p>
+              <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" width="195" height="114" alt="" title="" /></p>
               <div class="excerpt">
                 <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
               </div>
@@ -88,7 +79,7 @@
             </li>
           </ul>
           <div id="prev-menu-slider"></div>
-          <div id="next-menu-slider"></div>
+          <div id="next-menu-slider"></div> -->
         </div><!-- end menu-slider -->
       </div><!-- end wrap -->
     </div><!-- end menu-categories -->

@@ -2,9 +2,9 @@
 
 <script type="text/html" id="gallery-image-html">
   <li class="c-3 four-column">
-    <h3 class="title"><a href=""></a></h3>
+    <h3 class="title"><a href="" class="fancybox"></a></h3>
     <p class="image">
-      <a class="lightbox" href="">
+      <a class="fancybox" href="">
         <img height="114" width="195" title="" alt="" src="" />
       </a>
     </p>
@@ -33,20 +33,11 @@
 <div id="content">
   <div class="wrap">
     <div class="c-12">
+      <p>The proof is in the pudding... er, pastry, well... cupcakes, then.</p>
+    </div>
+    <div class="c-12">
       <ul class="portfolio-menu" id="gallery-images">
       </ul>
-
-      <div class="pagination">
-        <ul>
-          <li><a class="previous" href="#">Previous</a></li>
-          <li><a class="current" href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a class="next" href="#">Next</a></li>
-        </ul>
-      </div><!-- end pagination -->
     </div>
   </div><!-- end wrap -->
 </div><!-- end content -->

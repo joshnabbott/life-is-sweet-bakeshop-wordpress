@@ -13,16 +13,18 @@ $ ->
     galleryImageHtml = $('#gallery-image-html').html()
 
     $.getJSON 'http://api.flickr.com/services/feeds/photos_public.gne?id=80229400@N07&jsoncallback=?',
-      # tags: 'jquery'
       tagmode: 'any'
       format: 'json'
     , (data) ->
       $.each data.items, (i, item) ->
+        imgThumb = item.media.m.split('m.jpg')[0] + 'm.jpg'
+        imgLarge = item.media.m.split('m.jpg')[0] + 'c.jpg'
+
         $galleryItem = $(galleryImageHtml)
-        # $galleryItem.find('div.excerpt p').html(item.title)
-        $galleryItem.find('h3.title a').html(item.title).attr('href', item.link)
-        $galleryItem.find('p.image a').attr('href', item.link)
-        $galleryItem.find('img').attr('src', item.media.m).attr('alt', item.title).attr('title', item.title)
+        $galleryItem.find('div.excerpt p').html(item.title)
+        # $galleryItem.find('h3.title a').html(item.title).attr('href', item.link)
+        $galleryItem.find('p.image a').attr('href', imgLarge).fancybox()
+        $galleryItem.find('img').attr('src', imgThumb).attr('alt', item.title).attr('title', item.title)
         if i % 4 == 0
           $galleryItem.addClass 'clearfix'
           if i >= 4
