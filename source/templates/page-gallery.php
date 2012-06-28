@@ -1,14 +1,15 @@
 <?php get_header(); ?>
 
-<script type="text/html" id="gallery-image-html>
+<script type="text/html" id="gallery-image-html">
   <li class="c-3 four-column">
+    <h3 class="title"><a href=""></a></h3>
     <p class="image">
-      <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-        <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
+      <a class="lightbox" href="">
+        <img height="114" width="195" title="" alt="" src="" />
       </a>
     </p>
     <div class="excerpt">
-      <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
+      <p></p>
     </div>
   </li>
 </script>
@@ -32,164 +33,7 @@
 <div id="content">
   <div class="wrap">
     <div class="c-12">
-      <ul class="portfolio-menu">
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-12 dashed clearfix"></li>
-        <li class="c-3 four-column clearfix">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-12 dashed clearfix"></li>
-        <li class="c-3 four-column clearfix">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
-        <li class="c-3 four-column">
-          <!-- <p class="meta"><a class="category" title="" href="#">Breakfast</a></p> -->
-          <!-- <h3 class="title"><a href="">Holiday Casseroles 1</a></h3> -->
-          <p class="image">
-            <a class="lightbox" href="<?php bloginfo('template_url'); ?>/images/post-thumb-606x262-1.jpg">
-              <img height="114" width="195" title="" alt="" src="<?php bloginfo('template_url'); ?>/images/menu-4col-195x114.jpg" />
-            </a>
-          </p>
-          <div class="excerpt">
-            <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. </p>
-          </div>
-          <p class="actions"><a title="" href="" class="read-more-red">Read more</a></p>
-        </li>
+      <ul class="portfolio-menu" id="gallery-images">
       </ul>
 
       <div class="pagination">
