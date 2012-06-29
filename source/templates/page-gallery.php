@@ -2,15 +2,12 @@
 
 <script type="text/html" id="gallery-image-html">
   <li class="c-3 four-column">
-    <h3 class="title"><a href="" class="fancybox"></a></h3>
     <p class="image">
       <a class="fancybox" href="">
         <img height="114" width="195" title="" alt="" src="" />
       </a>
     </p>
-    <div class="excerpt">
-      <p></p>
-    </div>
+    <h3 class="title"></h3>
   </li>
 </script>
 
@@ -32,9 +29,6 @@
 
 <div id="content">
   <div class="wrap">
-    <div class="c-12">
-      <p>The proof is in the pudding... er, pastry, well... cupcakes, then.</p>
-    </div>
     <div class="c-12">
       <ul class="portfolio-menu" id="gallery-images">
       </ul>

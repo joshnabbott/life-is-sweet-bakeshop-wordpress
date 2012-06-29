@@ -21,8 +21,7 @@ $ ->
         imgLarge = item.media.m.split('m.jpg')[0] + 'c.jpg'
 
         $galleryItem = $(galleryImageHtml)
-        $galleryItem.find('div.excerpt p').html(item.title)
-        # $galleryItem.find('h3.title a').html(item.title).attr('href', item.link)
+        $galleryItem.find('h3.title').html(item.title)
         $galleryItem.find('p.image a').attr('href', imgLarge).fancybox()
         $galleryItem.find('img').attr('src', imgThumb).attr('alt', item.title).attr('title', item.title)
         if i % 4 == 0
