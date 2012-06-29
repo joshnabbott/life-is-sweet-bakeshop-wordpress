@@ -1,42 +1,26 @@
 <div class="c-4 sidebar">
   <div class="widget widget-recent">
     <h3 class="widget-title">Recent Posts</h3>
+    <?php $recent_posts = wp_get_recent_posts(); ?>
     <ul class="arrows">
-      <li><a href="">Quis nostrud exercitation</a></li>
-      <li><a href="">Vivamus convallis rutrum lorem</a></li>
-      <li><a href="">Nulla dui arcu, fermentum quis</a></li>
-      <li><a href="">Praesent massa lectus, vulputate sed</a></li>
-      <li><a href="">Vivamus convallis rutrum lorem</a></li>
-      <li><a href="">Quis nostrud exercitation</a></li>
-      <li><a href="">Nulla dui arcu, fermentum quis</a></li>
+      <?php
+        foreach($recent_posts as $post) {
+          echo('<li><a href="'. get_permalink($post["ID"]) .'">'. $post['post_title'] .'</a></li>');
+        }
+      ?>
     </ul>
   </div><!-- end widget-recent -->
 
   <div class="widget widget-categories">
-    <h3 class="widget-title">Menu Categories</h3>
-    <ul>
-      <li><a href="">breakfast</a></li>
-      <li><a href="">breakfast</a></li>
-      <li><a href="">desert</a></li>
-      <li><a href="">desert</a></li>
-      <li><a href="">dinner</a></li>
-      <li><a href="">dinner</a></li>
-      <li><a href="">lunch</a></li>
-      <li><a href="">lunch</a></li>
-    </ul>
+    <h3 class="widget-title">Blog Categories</h3>
+    <?php wp_list_categories(array('hierarchical' => false, 'title_li' => '')); ?>
+    <div class="clearfix"></div>
   </div><!-- end widget-categories -->
 
   <div class="widget widget-archives">
     <h3 class="widget-title">Archives</h3>
     <ul class="arrows">
-      <li><a href="">November 2010</a></li>
-      <li><a href="">November 2010</a></li>
-      <li><a href="">September 2010</a></li>
-      <li><a href="">September 2010</a></li>
-      <li><a href="">August 2010</a></li>
-      <li><a href="">August 2010</a></li>
-      <li><a href="">June 2010</a></li>
-      <li><a href="">June 2010</a></li>
+      <?php wp_get_archives('type=monthly&limit=12'); ?>
     </ul>
   </div><!-- end widget-archives -->
 
