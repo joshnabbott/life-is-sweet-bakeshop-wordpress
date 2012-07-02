@@ -86,7 +86,7 @@
 
     <div id="sub-content">
       <div class="wrap">
-        <div class="c-4">
+        <!-- <div class="c-4">
           <div class="widget widget-today-special">
             <h3 class="widget-title">This Week Special</h3>
             <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/thumb-specials-142x142.jpg" width="142" height="142" alt="" /></p>
@@ -95,30 +95,8 @@
               <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. </p>
             </div>
             <p class="actions"><a class="read-more-red" href="" title="">Read more</a></p>
-          </div><!-- end widget-today-special -->
-        </div>
-
-        <div class="c-4">
-          <div class="widget widget-news-events">
-            <h3 class="widget-title">News and Events</h3>
-            <ul>
-              <li>
-                <p class="meta">10 APRIL | 2011</p>
-                <h3 class="title"><a href="" title="">Suspendisse Dictum Suscipit Odio</a></h3>
-                <div class="excerpt">
-                  <p>Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies. Nulla dui arcu. </p>
-                </div>
-              </li>
-              <li>
-                <p class="meta">25 MAY | 2011</p>
-                <h3 class="title"><a href="" title="">Suspendisse Dictum Suscipit Odio</a></h3>
-                <div class="excerpt">
-                  <p>Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies. Nulla dui arcu. </p>
-                </div>
-              </li>
-            </ul>
-          </div><!-- end widget-news-events-->
-        </div>
+          </div>
+        </div> -->
 
         <div class="c-4">
           <div class="widget widget-restaurant-hours">
@@ -147,6 +125,26 @@
             </ul>
           </div><!-- end widget-restaurant-hours -->
         </div>
+
+        <div class="c-8">
+          <div class="widget widget-news-events">
+            <h3 class="widget-title">Recent blog posts</h3>
+            <?php $recent_posts = wp_get_recent_posts(array('numberposts' => 3)); ?>
+            <ul>
+              <?php foreach($recent_posts as $post) { ?>
+                <li>
+                  <p class="meta"><?php echo(date('F jS, Y', strtotime($post['post_date']))); ?></p>
+                  <h3 class="title"><a href="<?php echo(get_permalink($post['ID'])); ?>" title="<?php echo($post['post_title']); ?>"><?php echo($post['post_title']); ?></a></h3>
+                  <div class="excerpt">
+                    <p><?php echo($post['post_excerpt']); ?></p>
+                    <p class="actions"><a class="read-more-red" href="<?php echo(get_permalink($post['ID'])); ?>" title="">Read more</a></p>
+                  </div>
+                </li>
+              <?php } ?>
+            </ul>
+          </div><!-- end widget-news-events-->
+        </div>
+
       </div><!-- end wrap -->
     </div> <!-- end sub-content  -->
 </div><!-- end content -->
