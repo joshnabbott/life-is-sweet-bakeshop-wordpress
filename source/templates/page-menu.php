@@ -19,27 +19,26 @@
 <div id="content">
   <div class="wrap">
     <div class="c-6">
-      <h2 class="title">H2 It's okay to make a mess, experiments can lead to beautiful things.</h2>
-      <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem vehicula vitae. facilisis vel, accumsan a, sapien. Vivamus convallis rutrum lorem. Praesent massa lectus, vulputate sed, vestibulum eu, vestibulum eu, dolor.</p>
-      <p>Integer ante. Proin ac odio in urna cursus ultricies. Quisque tincidunt lacus in ante. Donec adipiscing. Curabitur at enim at nulla iaculis feugiat. Ut semper, nisi vel suscipit venenatis, felis diam auctor mi, quis iaculis leo nulla vel sapien.
-Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
+      <h2 class="title">Pricing</h2>
+      <p>The following prices are guidelines. Actual pricing will depend on cake flavor, filling, icing and decoration selected.</p>
     </div>
 
     <div class="c-6">
       <div class="menu-off-the-day">
-        <h3 class="title">Menu Of The Day</h3>
+        <h3 class="title"></h3>
         <ul>
-          <li><h2 class="title"><a href="">Keeping it Easy and Real</a><span>$12.3</span></h2></li>
-          <li><h2 class="title"><a href="">Creamy Chicken Mains</a><span>$12.3</span></h2></li>
-          <li><h2 class="title"><a href="">Oven Sweet Potato Fries</a><span>$12.3</span></h2></li>
-          <li><h2 class="title"><a href="">Holiday Casseroles</a><span>$12.3</span></h2></li>
+          <li><h2 class="title">6"(serves 6-8)<span>$26/$32 (Gluten Free)</span></h2></li>
+          <li><h2 class="title">9"(serves 10-14)<span>$38/$46 (Gluten Free)</span></h2></li>
+          <li><h2 class="title">1/4 Sheet(25)<span>$58/$74 (Gluten Free)</span></h2></li>
+          <li><h2 class="title">1/2 Sheet(50+)<span>$78/$104 (Gluten Free)</span></h2></li>
+          <li><h2 class="title">Cupcake Dozen<span>$40/$46 (Gluten Free)</span></h2></li>
         </ul>
       </div>
     </div>
 
     <div id="price-category">
       <div class="c-6">
-        <h3 class="price-category-heading">Breakfast</h3>
+        <h3 class="price-category-heading">Traditional cake flavors</h3>
         <p class="actions"><a href="">view more</a></p>
 
         <ul class="price-items">
@@ -49,7 +48,7 @@ Phasellus blandit nibh vel turpis. Curabitur commodo.</p>
               <a class="specialty" href="">Specialty</a>
             </div>
             <div class="price-heading">
-              <h2><a href="">Holiday Casseroles</a></h2>
+              <h2><a href="">Vanilla</a></h2>
               <span>$12.3</span>
             </div>
             <p>Suspendisse dictum suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
