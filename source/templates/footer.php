@@ -40,16 +40,16 @@
             <h3 class="widget-title">Contact Us</h3>
             <form id="contactform" action="http://lifeissweetbakeshop.mailmanhq.com" method="post">
               <p>
-                <label for="name">Your name:</label>
-                <input class="u-3" name="message[sender]" />
+                <label for="contact-name">Your name:</label>
+                <input class="u-3" name="message[sender]" id="contact-name" />
               </p>
               <p>
-                <label for="email">Your email:</label>
-                <input class="u-3" name="message[from]" />
+                <label for="contact-email">Your email:</label>
+                <input class="u-3" name="message[from]" id="contact-email" />
               </p>
               <p>
-                <label for="message">Message:</label>
-                <textarea class="u-3" name="message[body]" rows="2" cols="1"></textarea>
+                <label for="contact-message">Message:</label>
+                <textarea class="u-3" name="message[body]" rows="2" id="contcat-message"></textarea>
               </p>
               <p>
                 <input type="hidden" name="token" value="MDEf5oK71wxtPw==" />
