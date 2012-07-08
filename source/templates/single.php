@@ -9,10 +9,8 @@
 
     <div class="c-4">
       <ul class="social-bookmarking">
-        <li><a class="tw" href=""></a></li>
-        <li><a class="fb" href=""></a></li>
-        <li><a class="in" href=""></a></li>
-        <li><a class="rss" href=""></a></li>
+        <li><a class="tw" href="http://twitter.com/lifeissweetoc"></a></li>
+        <li><a class="fb" href="http://www.facebook.com/LifeIsSweetBakeshop"></a></li>
       </ul>
     </div>
   </div><!-- end wrap -->
@@ -36,12 +34,12 @@
                 <p class="image"><a href=""><?php the_post_thumbnail(); ?></a></p>
               <?php } ?>
               <?php the_content(); ?>
-              <p class="meta dashed">
-                <span class="tags">Tags: <a class="tag" title="" href="#">Tag 1</a>, <a class="category" href="#">Tag 2</a></span>
-              </p>
+              <!-- <p class="meta dashed"> -->
+              <!--   <span class="tags">Tags: <a class="tag" title="" href="#">Tag 1</a>, <a class="category" href="#">Tag 2</a></span> -->
+              <!-- </p> -->
             </div><!-- end post -->
           <?php endwhile; /* rewind or continue if all posts have been fetched */ ?>
-          <?php comments_template('', true) ?>
+          <?php // comments_template('', true) ?>
         <?php endif; ?>
         <?php the_post(); ?>
       </div>
