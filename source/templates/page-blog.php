@@ -3,8 +3,8 @@
 <div id="intro">
   <div class="wrap">
     <div class="c-8">
-      <h1>Blog Posts</h1>
-      <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>Blog Posts</strong> </p>
+      <h1>Blog</h1>
+      <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>Blog</strong></p>
     </div>
 
     <div class="c-4">

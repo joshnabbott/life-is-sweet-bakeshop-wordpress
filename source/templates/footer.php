@@ -1,38 +1,38 @@
     <div id="footer">
       <div class="wrap">
         <div class="c-4">
-          <div class="widget widget-about">
-            <h3 class="widget-title">Chef Mazzareli</h3>
-            <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/about-ft-82x82.jpg" width="82" height="82" alt="" /></p>
-            <div class="excerpt">
-              <p>Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. Vivamus convallis rutrum. Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis. ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p>
-            </div>
-            <p class="actions"><a class="read-more-white" href="" title="">Read more</a></p>
-          </div><!-- end widget-about -->
+          <!-- <div class="widget widget-about"> -->
+          <!--   <h3 class="widget-title">Chef Mazzareli</h3> -->
+          <!--   <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/about-ft-82x82.jpg" width="82" height="82" alt="" /></p> -->
+          <!--   <div class="excerpt"> -->
+          <!--     <p>Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. Vivamus convallis rutrum. Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis. ultricies id, justo. Nulla facilisi. Proin tortor sem, vehicula vitae, facilisis vel, accumsan a, sapien. </p> -->
+          <!--   </div> -->
+          <!--   <p class="actions"><a class="read-more-white" href="" title="">Read more</a></p> -->
+          <!-- </div>[> end widget-about <] -->
         </div>
         <div class="c-4">
-          <div class="widget  widget-menu-highlights">
-            <h3 class="widget-title">Menu Highlights</h3>
-            <ul>
-              <li>
-                <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-ft-56x56.jpg" width="56" height="56" alt="" /></p>
-                <h2 class="widget-title"><a href="" title="">French Wedge</a></h2>
-                <div class="excerpt">
-                  <p>Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies. </p>
-                </div>
-              </li>
-              <li>
-                <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-ft-56x56-1.jpg" width="56" height="56" alt="" /></p>
-                <h2 class="widget-title"><a href="" title="">Tarte aux pommes</a></h2>
-                <div class="excerpt">
-                  <p>Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies. </p>
-                </div>
-              </li>
-              <li>
-                <p class="actions"><a class="read-more-white" href="" title="">Look for more</a></p>
-              </li>
-            </ul>
-          </div><!-- end widget-menu-highlights -->
+          <!-- <div class="widget widget-menu-highlights"> -->
+          <!--   <h3 class="widget-title">Menu Highlights</h3> -->
+          <!--   <ul> -->
+          <!--     <li> -->
+          <!--       <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-ft-56x56.jpg" width="56" height="56" alt="" /></p> -->
+          <!--       <h2 class="widget-title"><a href="" title="">French Wedge</a></h2> -->
+          <!--       <div class="excerpt"> -->
+          <!--         <p>Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies. </p> -->
+          <!--       </div> -->
+          <!--     </li> -->
+          <!--     <li> -->
+          <!--       <p class="image"><img src="<?php bloginfo('template_url'); ?>/images/menu-ft-56x56-1.jpg" width="56" height="56" alt="" /></p> -->
+          <!--       <h2 class="widget-title"><a href="" title="">Tarte aux pommes</a></h2> -->
+          <!--       <div class="excerpt"> -->
+          <!--         <p>Suspendisse dictu m suscipit odio. Nulla dui arcu, fermentum quis, mattis quis, ultricies. </p> -->
+          <!--       </div> -->
+          <!--     </li> -->
+          <!--     <li> -->
+          <!--       <p class="actions"><a class="read-more-white" href="" title="">Look for more</a></p> -->
+          <!--     </li> -->
+          <!--   </ul> -->
+          <!-- </div>[> end widget-menu-highlights <] -->
         </div>
 
         <div class="c-4">

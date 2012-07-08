@@ -4,7 +4,7 @@
   <div class="wrap">
     <div class="c-8">
       <h1>Our Story</h1>
-      <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>About Full</strong> </p>
+      <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>About</strong></p>
     </div>
 
     <div class="c-4">

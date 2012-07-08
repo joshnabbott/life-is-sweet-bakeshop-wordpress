@@ -24,51 +24,51 @@
     </ul>
   </div><!-- end widget-archives -->
 
-  <div class="widget widget-restaurant-hours">
-    <h3 class="widget-title">Restaurant Hours</h3>
-    <ul class="restaurant-hours">
-      <li><p class="meta">Breakfast</p></li>
-      <li>
-        <label>Monday - Friday</label>
-        <span>11:00 am - 03:00 pm</span>
-      </li>
-      <li>
-        <label>Monday - Friday</label>
-        <span>11:00 am - 03:00 pm</span>
-      </li>
-    </ul>
-    <ul class="restaurant-hours">
-      <li><p class="meta">Lunch</p></li>
-      <li>
-        <label>Monday - Friday</label>
-        <span>11:00 am - 03:00 pm</span>
-      </li>
-      <li>
-        <label>Monday - Friday</label>
-        <span>11:00 am - 03:00 pm</span>
-      </li>
-    </ul>
-  </div><!-- end widget-restaurant-hours -->
+  <!-- <div class="widget widget-restaurant-hours"> -->
+  <!--   <h3 class="widget-title">Restaurant Hours</h3> -->
+  <!--   <ul class="restaurant-hours"> -->
+  <!--     <li><p class="meta">Breakfast</p></li> -->
+  <!--     <li> -->
+  <!--       <label>Monday - Friday</label> -->
+  <!--       <span>11:00 am - 03:00 pm</span> -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!--       <label>Monday - Friday</label> -->
+  <!--       <span>11:00 am - 03:00 pm</span> -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!--   <ul class="restaurant-hours"> -->
+  <!--     <li><p class="meta">Lunch</p></li> -->
+  <!--     <li> -->
+  <!--       <label>Monday - Friday</label> -->
+  <!--       <span>11:00 am - 03:00 pm</span> -->
+  <!--     </li> -->
+  <!--     <li> -->
+  <!--       <label>Monday - Friday</label> -->
+  <!--       <span>11:00 am - 03:00 pm</span> -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </div>[> end widget-restaurant-hours <] -->
 
-  <div class="widget widget-twitter">
-    <h3 class="widget-title">Twitter Updates</h3>
-    <ul class="twitter-feed">
-      <li class="tweet-row">
-        <span class="profile"><a href="">Barbedo</a></span>
-        <span class="content">Scary! <a class="replay" href="">RT @karasw:</a> $10/day in-room internet at Four Seasons Santa Barbara. Boo.</span>
-        <span class="time"><a href="">about 5 hours ago</a></span>
-      </li>
-      <li class="tweet-row">
-        <span class="profile"><a href="">Barbedo</a></span>
-        <span class="content">Scary! <a class="replay" href="">RT @karasw:</a> $10/day in-room internet at Four Seasons Santa Barbara. Boo.</span>
-        <span class="time"><a href="">about 5 hours ago</a></span>
-      </li>
-      <li class="tweet-row">
-        <span class="profile"><a href="">Barbedo</a></span>
-        <span class="content">Scary! <a class="replay" href="">RT @karasw:</a> $10/day in-room internet at Four Seasons Santa Barbara. Boo.</span>
-        <span class="time"><a href="">about 5 hours ago</a></span>
-      </li>
-    </ul>
-  </div><!-- end widget-news-events-->
+  <!-- <div class="widget widget-twitter"> -->
+  <!--   <h3 class="widget-title">Twitter Updates</h3> -->
+  <!--   <ul class="twitter-feed"> -->
+  <!--     <li class="tweet-row"> -->
+  <!--       <span class="profile"><a href="">Barbedo</a></span> -->
+  <!--       <span class="content">Scary! <a class="replay" href="">RT @karasw:</a> $10/day in-room internet at Four Seasons Santa Barbara. Boo.</span> -->
+  <!--       <span class="time"><a href="">about 5 hours ago</a></span> -->
+  <!--     </li> -->
+  <!--     <li class="tweet-row"> -->
+  <!--       <span class="profile"><a href="">Barbedo</a></span> -->
+  <!--       <span class="content">Scary! <a class="replay" href="">RT @karasw:</a> $10/day in-room internet at Four Seasons Santa Barbara. Boo.</span> -->
+  <!--       <span class="time"><a href="">about 5 hours ago</a></span> -->
+  <!--     </li> -->
+  <!--     <li class="tweet-row"> -->
+  <!--       <span class="profile"><a href="">Barbedo</a></span> -->
+  <!--       <span class="content">Scary! <a class="replay" href="">RT @karasw:</a> $10/day in-room internet at Four Seasons Santa Barbara. Boo.</span> -->
+  <!--       <span class="time"><a href="">about 5 hours ago</a></span> -->
+  <!--     </li> -->
+  <!--   </ul> -->
+  <!-- </div>[> end widget-news-events<] -->
 </div>
 

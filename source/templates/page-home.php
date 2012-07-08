@@ -99,31 +99,10 @@
         </div> -->
 
         <div class="c-4">
-          <div class="widget widget-restaurant-hours">
-            <h3 class="widget-title">Restaurant Hours</h3>
-            <ul class="restaurant-hours">
-              <li><p class="meta">Breakfast</p></li>
-              <li>
-                <label>Monday - Friday</label>
-                <span>11:00 am - 03:00 pm</span>
-              </li>
-              <li>
-                <label>Monday - Friday</label>
-                <span>11:00 am - 03:00 pm</span>
-              </li>
-            </ul>
-            <ul class="restaurant-hours">
-              <li><p class="meta">Lunch</p></li>
-              <li>
-                <label>Monday - Friday</label>
-                <span>11:00 am - 03:00 pm</span>
-              </li>
-              <li>
-                <label>Monday - Friday</label>
-                <span>11:00 am - 03:00 pm</span>
-              </li>
-            </ul>
-          </div><!-- end widget-restaurant-hours -->
+          <div>
+            <?php the_post(); ?>
+            <?php the_content(); ?>
+          </div>
         </div>
 
         <div class="c-8">
