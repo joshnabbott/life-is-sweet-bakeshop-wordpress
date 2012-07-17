@@ -7,7 +7,7 @@
         <div id="small-slider">
           <ul>
             <li>
-              <h4>Farmer's Market Cupcakes</h4>
+              <h4>Vanilla Bean Cupcakes</h4>
             </li>
             <li>
               <h4>Cinnamon Roll Cupcakes</h4>
@@ -27,7 +27,7 @@
           <div class="mask"></div>
             <ul>
               <li>
-                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/home/slideshow-vanilla-cupcakes.jpg" width="511" height="511" alt="Vanilla Cupcakes" title="Farmer's Market Cupcake" /></a>
+                <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/home/slideshow-vanilla-cupcakes.jpg" width="511" height="511" alt="Vanilla Cupcakes" title="Vanilla Bean Cupcakes" /></a>
               </li>
               <li>
                 <a href="" title=""><img src="<?php bloginfo('template_url'); ?>/images/home/slideshow-cinnamon-roll-cupcakes.jpg" width="511" height="341" alt="Cinnamon Roll Cupcakes" title="Cinnamon Roll Cupcakes" /></a>
@@ -108,18 +108,28 @@
         <div class="c-8">
           <div class="widget widget-news-events">
             <h3 class="widget-title">Recent blog posts</h3>
-            <?php $recent_posts = wp_get_recent_posts(array('numberposts' => 3)); ?>
             <ul>
-              <?php foreach($recent_posts as $post) { ?>
+              <?php
+                $recentPosts = new WP_Query();
+                $recentPosts->query('showposts=3');
+                while($recentPosts->have_posts()):
+                $recentPosts->the_post();
+              ?>
                 <li>
-                  <p class="meta"><?php echo(date('F jS, Y', strtotime($post['post_date']))); ?></p>
-                  <h3 class="title"><a href="<?php echo(get_permalink($post['ID'])); ?>" title="<?php echo($post['post_title']); ?>"><?php echo($post['post_title']); ?></a></h3>
-                  <div class="excerpt">
-                    <p><?php echo($post['post_excerpt']); ?></p>
-                    <p class="actions"><a class="read-more-red" href="<?php echo(get_permalink($post['ID'])); ?>" title="">Read more</a></p>
+                  <h3 class="title"><a href="<?php echo the_permalink(); ?>" title="<?php echo the_title(); ?>"><?php echo the_title(); ?></a></h3>
+                  <?php if (has_post_thumbnail()) { ?>
+                    <p class="image" style="float: left; margin-right: 9px;"><a href="<?php echo the_permalink(); ?>"><?php the_post_thumbnail('recent-post-thumbnail'); ?></a></p>
+                  <?php } ?>
+                  <div>
+                    <div class="excerpt">
+                      <p><?php echo the_excerpt(); ?> <a class="read-more-red" href="<?php echo the_permalink(); ?>">Read more</a></p>
+                    </div>
                   </div>
                 </li>
-              <?php } ?>
+              <?php
+                endwhile;
+                wp_reset_query();
+              ?>
             </ul>
           </div><!-- end widget-news-events-->
         </div>

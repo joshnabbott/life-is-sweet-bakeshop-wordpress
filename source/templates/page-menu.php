@@ -10,7 +10,7 @@
     <div class="c-4">
       <ul class="social-bookmarking">
         <li><a class="tw" href="http://twitter.com/lifeissweetoc"></a></li>
-        <li><a class="fb" href="http://www.facebook.com/LifeIsSweetBakeshop"></a></li>
+        <li><a class="fb" href="http://www.facebook.com/lifeissweetbakeshopoc"></a></li>
       </ul>
     </div>
   </div><!-- end wrap -->

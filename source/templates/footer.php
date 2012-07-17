@@ -67,12 +67,12 @@
         <div class="c-6">
           <p id="copyright">&copy; 2012 Life is Sweet Bakeshop</p>
         </div>
-        <div class="c-6">
+        <!-- <div class="c-6">
           <ul class="subfooter-menu">
             <li><a href="" title="">Terms &amp; Conditions</a></li>
             <li><a href="" title="">Copyrights</a></li>
             <li><a href="" title="">Site Map</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div><!-- end wrap -->
     </div><!-- end subfooter -->

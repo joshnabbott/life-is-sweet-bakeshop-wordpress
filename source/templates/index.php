@@ -3,14 +3,14 @@
 <div id="intro">
   <div class="wrap">
     <div class="c-8">
-      <h1>Blog Posts</h1>
-      <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>Blog Posts</strong> </p>
+      <h1>Blog</h1>
+      <p class="breadcrumbs">You are here: <a href="home.html">Home</a> &raquo; <strong>Blog</strong></p>
     </div>
 
     <div class="c-4">
       <ul class="social-bookmarking">
         <li><a class="tw" href="http://twitter.com/lifeissweetoc"></a></li>
-        <li><a class="fb" href="http://www.facebook.com/LifeIsSweetBakeshop"></a></li>
+        <li><a class="fb" href="http://www.facebook.com/lifeissweetbakeshopoc"></a></li>
       </ul>
     </div>
   </div><!-- end wrap -->

@@ -43,3 +43,9 @@ if ( ! function_exists( 'life_is_sweet_setup' ) ) :
 
 endif; // life_is_sweet_setup
 
+if(function_exists('add_theme_support')) {
+  add_theme_support('post-thumbnails');
+}
+set_post_thumbnail_size(582, 262, true);
+add_image_size('recent-post-thumbnail', 55, 55, true);
+
