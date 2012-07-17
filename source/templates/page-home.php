@@ -108,7 +108,7 @@
         <div class="c-8">
           <div class="widget widget-news-events">
             <h3 class="widget-title">Recent blog posts</h3>
-            <ul>
+            <ul class="recent-posts">
               <?php
                 $recentPosts = new WP_Query();
                 $recentPosts->query('showposts=3');
@@ -116,14 +116,14 @@
                 $recentPosts->the_post();
               ?>
                 <li>
-                  <h3 class="title"><a href="<?php echo the_permalink(); ?>" title="<?php echo the_title(); ?>"><?php echo the_title(); ?></a></h3>
                   <?php if (has_post_thumbnail()) { ?>
-                    <p class="image" style="float: left; margin-right: 9px;"><a href="<?php echo the_permalink(); ?>"><?php the_post_thumbnail('recent-post-thumbnail'); ?></a></p>
-                  <?php } ?>
-                  <div>
-                    <div class="excerpt">
-                      <p><?php echo the_excerpt(); ?> <a class="read-more-red" href="<?php echo the_permalink(); ?>">Read more</a></p>
+                    <div class="post-thumbnail">
+                      <a href="<?php echo the_permalink(); ?>"><?php the_post_thumbnail('recent-post-thumbnail'); ?></a>
                     </div>
+                  <?php } ?>
+                  <h3 class="title"><a href="<?php echo the_permalink(); ?>" title="<?php echo the_title(); ?>"><?php echo the_title(); ?></a></h3>
+                  <div class="excerpt">
+                    <?php echo the_excerpt(); ?>
                   </div>
                 </li>
               <?php
