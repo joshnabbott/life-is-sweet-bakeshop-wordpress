@@ -3,7 +3,7 @@
 <script type="text/html" id="gallery-image-html">
   <li class="c-3 four-column">
     <p class="image">
-      <a class="fancybox" href="">
+      <a class="fancybox" href="" rel="group">
         <img height="114" width="195" title="" alt="" src="" />
       </a>
     </p>
