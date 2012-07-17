@@ -593,10 +593,15 @@ span.dropcap {
 /*---------------- LOGO --------------- */
 
 h1.logo { margin:0; }
-h1 a {
-	float:left;
-	display:inline;
-	padding-top: 10px;
+h1.logo a {
+  float:left;
+  display:inline;
+  padding-top: 10px;
+  text-indent: -8000px;
+}
+
+div.logo {
+  text-align: center;
 }
 
 /*---------------- BOOK A TABLE --------------- */
@@ -612,11 +617,11 @@ a.contact-us {
 }
 a.contact-us:hover { background-position:0 -64px; }
 
-/*---------------- MAIN NAVIGATION --------------- */
+/*---------------- center NAVIGATION --------------- */
 #main-navigation {
 	height: 34px;
 	position: absolute;
-	right: 0;
+	left: 0;
 	top: 78px;
 }
 
@@ -980,6 +985,10 @@ ul.subfooter-menu li a { color:#92877d; }
 	position: absolute;
 	width: 607px;
 	z-index: 1;
+}
+
+#menu-slider {
+  display: none;
 }
 #next, #prev, #next-menu-slider, #prev-menu-slider {
 	background-image:url(images/scroll-arrows.png);
