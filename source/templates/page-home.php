@@ -4,6 +4,10 @@
   <div id="slider">
     <div class="wrap">
       <div class="c-12">
+        <ul class="social-bookmarking">
+          <li><a class="tw" href="http://twitter.com/lifeissweetoc"></a></li>
+          <li><a class="fb" href="http://www.facebook.com/lifeissweetbakeshopoc"></a></li>
+        </ul>
         <div class="logo">
           <img src="<?php bloginfo('template_url'); ?>/images/logo-big.png" alt="Life is Sweet Bake Shop" width="431" height="341" />
         </div>

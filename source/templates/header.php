@@ -22,8 +22,6 @@
     <div class="wrap">
       <h1 class="logo"><a href="<?php echo home_url(); ?>">Life Is Sweet Bake Shop</a></h1>
 
-      <a href="?page_id=62" title="Contact us" class="contact-us">Contact Us</a>
-
       <div id="main-navigation">
         <?php
           wp_nav_menu(array(
