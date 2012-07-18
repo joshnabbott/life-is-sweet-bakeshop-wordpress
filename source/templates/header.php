@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
   <div id="header">
     <div class="wrap">
-      <h1 class="logo"><a href="<?php echo home_url(); ?>">Life Is Sweet Bake Shop</a></h1>
+      <h1 class="logo"><a href="<?php echo home_url(); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" /></a></h1>
 
       <div id="main-navigation">
         <?php

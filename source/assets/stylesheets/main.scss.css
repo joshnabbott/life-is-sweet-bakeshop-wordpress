@@ -594,14 +594,13 @@ span.dropcap {
 
 h1.logo { margin:0; }
 h1.logo a {
-  float:left;
-  display:inline;
+  float: right;
+  display: inline;
   padding-top: 10px;
-  text-indent: -8000px;
 }
 
 div.logo {
-  text-align: center;
+  padding-left: 75px;
 }
 
 /*---------------- BOOK A TABLE --------------- */
